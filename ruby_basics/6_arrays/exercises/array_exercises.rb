@@ -33,7 +33,7 @@ end
 
 def remove_first_three_elements(array)
   # Step 1: remove the first three elements
-  array.shift(0..2)
+  array.shift(3)
 
   # Step 2: return the array (because Step 1 returns the values of the elements removed)
   array
@@ -41,7 +41,7 @@ end
 
 def array_concatenation(original, additional)
   # return an array adding the original and additional array together
-  original + additional
+  original + additionaln
 end
 
 def array_difference(original, comparison)
