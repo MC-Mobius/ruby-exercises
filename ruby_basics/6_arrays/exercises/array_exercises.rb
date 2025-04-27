@@ -51,7 +51,7 @@ end
 
 def empty_array?(array)
   # return true if the array is empty
-  empty_array.empty?
+  array.empty?
 end
 
 def reverse(array)
