@@ -38,6 +38,8 @@ end
 def delete_language(languages, language_name)
   # Take languages and delete the language_name key/value pair, then return
   # languages
+  languages.delete(language_name)
+  languages
 end
 
 def find_beautiful_languages(languages)
